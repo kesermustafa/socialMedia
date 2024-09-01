@@ -1,0 +1,135 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWrapper{
+    width: 70%;
+    height: 50%;
+   display: flex;
+}
+
+.loginLeft, .loginRigth{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.loginLeft{
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px){
+    .loginWrapper{
+        flex-direction: column;
+        height: 90vh;
+        justify-content: center;
+        width: 90%;
+        gap: 1rem;
+    }
+
+    .loginRigth{
+        height: 100%;
+        flex: 3;
+    }
+
+    .loginLeft{
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+
+    .loginLeft{
+       display: none !important;
+    }
+
+    .loginRigth{
+        height: 70% !important;
+
+    }
+
+    .loginBox{
+        height: 90% !important;
+    }
+
+}
+
+.loginLogo{
+   font-size: 50px; 
+   font-weight: 800;
+   color: #7775ee;
+   margin-bottom: 10px;
+}
+
+.personLogo{
+    width: 200px !important;
+    height: 200px !important;
+    color:#7775ee;
+}
+
+
+.loginDesc{
+    font-size: 24px;
+}
+
+.loginBox{
+    height: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex  ;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.loginInput{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #7775ee;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginForgot{
+    text-align: center;
+    color: #7775ee;   
+}
+
+.loginRegisterButton{
+    height: 50px;
+    width: 60%;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #2faf4f;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}

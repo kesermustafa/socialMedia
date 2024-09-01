@@ -1,0 +1,93 @@
+.rigthbar{
+    flex: 3.5;
+}
+
+
+.rigthbarWrapper{
+    padding: 20px 20px 0 0 ;
+}
+
+.brithdayContainer{
+    display: flex;
+    align-items: center;
+}
+
+.birthdayImg{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.brithdayText{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.rigthbarAd{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.rigthbarTitle{
+    margin-bottom: 20px;
+}
+
+.rigthbarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rigthbarTitle{
+    font-style: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rigthbarInfo{
+    margin-bottom: 30px;
+}
+
+
+.rigthbarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+
+.rigthbarInfoValue{
+    font-weight: 300;
+}
+
+
+.rightbarFollowings{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+
+
+}
+
+.rigthbarFollowing{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.rightbarInfoItem{
+    margin-bottom: 10px;
+}
+
+.rigthbarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0 auto 5px;
+    border-radius: 5px;
+}
+.rigthbarFollowingName{
+    text-align: center;
+}
